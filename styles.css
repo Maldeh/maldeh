@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.pack-opening {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#packResult {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.catalog-container {
+    margin-top: 20px;
+}
+
+#catalog-count {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.catalog-item {
+    flex: 1 0 20%; /* Maximaal 5 items per rij */
+    text-align: center;
+}
+
+.catalog-item img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.catalog-item-count {
+    font-size: 14px;
+    color: #555;
+}
+
+.item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain; /* Zorgt ervoor dat de afbeelding binnen de gegeven afmetingen past */
+}
+
+/* Rarity styles */
+.common {
+    color: #888;
+}
+
+.uncommon {
+    color: #28a745;
+}
+
+.rare {
+    color: #007bff;
+}
+
+.epic {
+    color: #6f42c1;
+}
+
+.legendary {
+    color: #fd7e14;
+}

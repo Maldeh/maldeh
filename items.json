@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Common Sword",
+        "image_url": "images/knight.jpg",
+        "rarity": "common"
+    },
+    {
+        "name": "Uncommon Shield",
+        "image_url": "path/to/uncommon_shield.png",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Rare Helmet",
+        "image_url": "path/to/rare_helmet.png",
+        "rarity": "rare"
+    },
+    {
+        "name": "Epic Armor",
+        "image_url": "path/to/epic_armor.png",
+        "rarity": "epic"
+    },
+    {
+        "name": "Legendary Staff",
+        "image_url": "path/to/legendary_staff.png",
+        "rarity": "legendary"
+    },
+    {
+        "name": "Common Boots",
+        "image_url": "path/to/common_boots.png",
+        "rarity": "common"
+    },
+    {
+        "name": "Uncommon Ring",
+        "image_url": "path/to/uncommon_ring.png",
+        "rarity": "uncommon"
+    },
+    {
+        "name": "Rare Amulet",
+        "image_url": "path/to/rare_amulet.png",
+        "rarity": "rare"
+    },
+    {
+        "name": "Epic Gloves",
+        "image_url": "path/to/epic_gloves.png",
+        "rarity": "epic"
+    },
+    {
+        "name": "Legendary Sword",
+        "image_url": "path/to/legendary_sword.png",
+        "rarity": "legendary"
+    }
+]
