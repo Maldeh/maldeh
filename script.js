@@ -80,4 +80,5 @@ document.addEventListener('DOMContentLoaded', () => {
         const collectedItems = Object.keys(catalogItems).length;
         catalogCount.textContent = `Collected ${collectedItems} of ${totalItems} items`;
     }
+
 });
